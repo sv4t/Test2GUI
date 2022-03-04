@@ -13,9 +13,9 @@ public class Test extends JFrame {
         setLayout(null);
         setSize(600, 600);
         setVisible(true);
-        repaint();
 
         buildScreen();
+        repaint();
         
     }
 
