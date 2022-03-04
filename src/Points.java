@@ -11,12 +11,13 @@ import javax.swing.JComponent;
 
 public class Points extends JComponent{
 	private double[] points = new double[6];
+
 	private int index;
 
 	private int moveToPointX = -1;
 	private int moveToPointY = -1;
 
-	private Color color;
+	private Color color = Color.RED;
 
 	public void setColor(Color color){
 		this.color = color;
